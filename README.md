@@ -1,21 +1,21 @@
-# Light
+# Feather
 
-Default theme for [Hexo].
+基于[light](https://github.com/tommy351/hexo-theme-light)的个人博客主题
 
 ## Install
 
-Execute the following command and modify `theme` in `_config.yml` to `light`.
+Execute the following command and modify `theme` in `_config.yml` to `feather`.
 
 ```
-git clone git://github.com/tommy351/hexo-theme-light.git themes/light
+git@github.com:yunlzheng/hexo-theme-feather.git themes/feather
 ```
 
 ## Update
 
-Execute the following command to update Light.
+Execute the following command to update feather.
 
 ```
-cd themes/light
+cd themes/feather
 git pull
 ```
 
