@@ -25,14 +25,16 @@ Default config:
 
 ``` yaml
 menu:
-  Home: /
-  Archives: /archives
+  博客: /
+  存档: /archives
+  关于: /about
 
 widgets:
 - search
+- recent_posts
 - category
 - tag
-- twitter
+
 
 excerpt_link: Read More
 
@@ -43,72 +45,46 @@ twitter:
 
 addthis:
   enable: true
-  pubid:
-  facebook: true
-  twitter: true
-  google: true
-  pinterest: true
 
 fancybox: true
 
 google_analytics:
 rss:
+
+comment_provider: duoshuo
+
+# Facebook comment
+facebook:
+  appid: 123456789012345
+  comment_count: 5
+  comment_width: 840
+  comment_colorscheme: light
+
+# Duoshuo comment
+duoshuo:
+  short_name: moo123
+
+society:
+  enable: true
+  github: https://github.com/yunlzheng
+  weibo: http://weibo.com/503error
+  google_plug: http://www.google.com
+
+#About Page
+about:
+  name:
 ```
 
-- **menu** - Main navigation menu
-- **widget** - Widgets displaying in sidebar
+- **menu** - 导航菜单项
+- **widget** - 侧边栏工具
 - **excerpt_link** - "Read More" link text at the bottom of excerpted articles
-- **twitter** - Twitter widget config
-  - **username** - Twitter username
-  - **show_replies** - Enable displaying replies
-  - **tweet_count** - Tweets display in widget
-- **addthis** - Share buttons at the buttom of articles (Powered by [AddThis])
-  - **enable** - Enable share buttons
-  - **pubid** - Profile ID of [AddThis]
-  - **facebook** - Enable Facebook button
-  - **twitter** - Enable Twitter button
-  - **google** - Enable Google+ button
-  - **pinterest** - Enable Pinterest button
+- **addthis** - 加网分享按钮
+  - **enable** - 是否启用加网分享
 - **fancybox** - Enable [Fancybox]
 - **google_analytics** - Google Analytics ID
 - **rss** - RSS subscription link (change if using Feedburner)
+-**duoshuo**: 国内还是用多说来的比较稳定
+  -**short_name**: 在多说注册的short_name 
 
 ## Features
 
-### Gallery Post
-
-![](http://i.minus.com/ibp6Hbytwgof9y.jpg)
-
-```
----
-layout: photo
-title: Gallery Post
-photos:
-- http://i.minus.com/ibobbTlfxZgITW.jpg
-- http://i.minus.com/iedpg90Y0exFS.jpg
----
-```
-
-### Link Post
-
-![](http://i.minus.com/i7hBbGqh14EWo.png)
-
-```
----
-layout: link
-title: Link Post
-link: http://www.google.com/
----
-```
-
-### Tweet Widget
-
-![](http://i.minus.com/iMC8EyF9y0Y3y.PNG)
-
-### Fancybox
-
-![](http://i.minus.com/iHv7h7rZNqHvo.PNG)
-
-[Hexo]: http://zespia.tw/hexo/
-[AddThis]: https://www.addthis.com
-[Fancybox]: http://fancyapps.com/fancybox/
