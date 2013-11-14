@@ -24,9 +24,9 @@ var disqus_shortname = '<%= config.disqus_shortname %>';
 
                 var scrollTop = $(window).scrollTop();
                 if ( scrollTop >200 ){
-                    $("#header").removeClass('normal_mode').addClass('top_mode');
+                    $("#main-nav").removeClass('normal_mode').addClass('top_mode');
                 } else{
-                    $("#header").removeClass('top_mode').addClass('normal_mode');
+                    $("#main-nav").removeClass('top_mode').addClass('normal_mode');
                 }
 
             });

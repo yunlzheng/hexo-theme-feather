@@ -1,13 +1,11 @@
 menu:
   博客: /
   存档: /archives
+  作品: /works
   关于: /about
 
 widgets:
 - search
-- recent_posts
-- category
-- tag
 
 
 excerpt_link: Read More

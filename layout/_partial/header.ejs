@@ -1,9 +1,9 @@
-<div class="alignleft">
+<div class='profile'>
   <h1><a href="<%- config.root %>"><img class="logo" src="/css/img/logo.png"/><%= config.title %></a></h1>
   <h2><a href="<%- config.root %>"><% if (config.subtitle){ %><%= config.subtitle %><% } %></a></h2>
 </div>
 <nav id="main-nav">
-  <ul>
+  <ul class='inner'>
     <% for (var i in theme.menu){ %>
       <li><a href="<%- theme.menu[i] %>"><%= i %></a></li>
     <% } %>

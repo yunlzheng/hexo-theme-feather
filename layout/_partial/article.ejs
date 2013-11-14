@@ -4,14 +4,7 @@
   <% } %>
   <div class="post-content">
     <header>
-      <% if (item.layout != 'page'){ %>
-        <div class="icon"></div>
-        <time datetime="<%= item.date.toDate().toISOString() %>">
-          <a href="<%- config.root %><%- item.path %>">
-              <%= item.date.format(config.date_format) %>
-          </a>
-        </time>
-      <% } %>
+      
       <%- partial('post/title') %>
     </header>
     <div class="entry">
@@ -23,11 +16,11 @@
     </div>
     <footer>
       <% if (index){ %>
-        <div class="alignright">
+        <div class="alignleft">
             <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%= theme.excerpt_link %></a>
         </div>
         <% if (item.comment && config.disqus_shortname){ %>
-        <div class="alignright">
+        <div class="alignleft">
           <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
         </div>
         <% } %>
