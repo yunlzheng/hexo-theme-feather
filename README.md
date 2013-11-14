@@ -1,23 +1,23 @@
-# newone
+# Writing
 
-Hexo主题集合之newone
+Hexo主题集合之writing
 基于[light](https://github.com/tommy351/hexo-theme-light)的个人博客主题
 
 ## Demo
 
-![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/newone/source/css/img/themes-newone.png)
-![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/newone/source/css/img/themes-newone-2.png)
+![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/writing/source/css/img/themes-writing.png)
+![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/writing/source/css/img/themes-writing-2.png)
 
 ## Install
 
-Execute the following command and modify `theme` in `_config.yml` to `newone`.
+Execute the following command and modify `theme` in `_config.yml` to `writing`.
 
 ```
-git@github.com:yunlzheng/hexo-themes.git themes/newone
+git@github.com:yunlzheng/hexo-themes.git themes/writing
 ```
 
 ```
-git checkout release/newone
+git checkout release/writing
 ```
 
 ## Update
@@ -25,7 +25,7 @@ git checkout release/newone
 Execute the following command to update new.
 
 ```
-cd themes/newone
+cd themes/writing
 git pull
 ```
 
