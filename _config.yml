@@ -52,3 +52,6 @@ society:
 #About Page
 about:
   name:
+
+auto_change:
+  emable: true
