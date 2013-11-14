@@ -6,18 +6,18 @@ Hexo主题集合之writing
 ## Demo
 
 ![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/writing/source/css/img/themes-writing.png)
-![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/writing/source/css/img/themes-writing.png)
+![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/writing/source/css/img/themes-writing-2.png)
 
 ## Install
 
-Execute the following command and modify `theme` in `_config.yml` to `newone`.
+Execute the following command and modify `theme` in `_config.yml` to `writing`.
 
 ```
-git@github.com:yunlzheng/hexo-themes.git themes/newone
+git@github.com:yunlzheng/hexo-themes.git themes/writing
 ```
 
 ```
-git checkout release/newone
+git checkout release/writing
 ```
 
 ## Update
@@ -25,7 +25,7 @@ git checkout release/newone
 Execute the following command to update new.
 
 ```
-cd themes/newone
+cd themes/writing
 git pull
 ```
 
