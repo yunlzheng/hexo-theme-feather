@@ -1,21 +1,31 @@
-# Feather
+# newone
 
+Hexo主题集合之newone
 基于[light](https://github.com/tommy351/hexo-theme-light)的个人博客主题
+
+## Demo
+
+![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/newone/source/css/img/themes-newone.png)
+![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/newone/source/css/img/themes-newone-2.png)
 
 ## Install
 
-Execute the following command and modify `theme` in `_config.yml` to `feather`.
+Execute the following command and modify `theme` in `_config.yml` to `newone`.
 
 ```
-git@github.com:yunlzheng/hexo-theme-feather.git themes/feather
+git@github.com:yunlzheng/hexo-themes.git themes/newone
+```
+
+```
+git checkout release/newone
 ```
 
 ## Update
 
-Execute the following command to update feather.
+Execute the following command to update new.
 
 ```
-cd themes/feather
+cd themes/newone
 git pull
 ```
 
@@ -87,8 +97,6 @@ about:
   -**short_name**: 在多说注册的short_name 
 
 ## Features
-
-
-## Todo
-  
-   * 添加jsfiddle支持
+   
+* 可选disqus/多说第三方评论
+*  更富交互性的导航   
