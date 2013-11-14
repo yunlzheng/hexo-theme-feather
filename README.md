@@ -1,12 +1,12 @@
-# newone
+# Writing
 
-Hexo主题集合之newone
+Hexo主题集合之writing
 基于[light](https://github.com/tommy351/hexo-theme-light)的个人博客主题
 
 ## Demo
 
-![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/newone/source/css/img/themes-newone.png)
-![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/newone/source/css/img/themes-newone-2.png)
+![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/writing/source/css/img/themes-writing.png)
+![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/writing/source/css/img/themes-writing.png)
 
 ## Install
 
