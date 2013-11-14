@@ -6,7 +6,7 @@ Hexo主题集合之writing
 ## Demo
 
 ![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/writing/source/css/img/themes-writing.png)
-![screenshot](https://raw.github.com/yunlzheng/hexo-themes/release/writing/source/css/img/themes-writing-2.png)
+
 
 ## Install
 
